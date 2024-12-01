@@ -7,7 +7,7 @@ use app\models\RegisterModel;
 class AuthController extends controller
 {
     public function login()
-    {
+    { 
         $this->setlayout('auth');
         return $this->render('login');
     }
